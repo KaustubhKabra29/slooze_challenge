@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "name": "Industrial Machinery",
+      "slug": "industrial_machinery",
+      "url": "https://www.indiamart.com/proddetail/",
+      "search_url": "https://www.indiamart.com/search.mp?ss=industrial+machinery&priceUnit=INR",
+      "enabled": true
+    },
+    {
+      "name": "Electronics Components",
+      "slug": "electronics_components",
+      "url": "https://www.indiamart.com/proddetail/",
+      "search_url": "https://www.indiamart.com/search.mp?ss=electronics+components&priceUnit=INR",
+      "enabled": true
+    },
+    {
+      "name": "Textile Fabrics",
+      "slug": "textile_fabrics",
+      "url": "https://www.indiamart.com/proddetail/",
+      "search_url": "https://www.indiamart.com/search.mp?ss=textile+fabrics&priceUnit=INR",
+      "enabled": true
+    },
+    {
+      "name": "Chemical Products",
+      "slug": "chemical_products",
+      "url": "https://www.indiamart.com/proddetail/",
+      "search_url": "https://www.indiamart.com/search.mp?ss=chemical+products&priceUnit=INR",
+      "enabled": true
+    }
+  ],
+  "scraper": {
+    "delay_min_seconds": 2,
+    "delay_max_seconds": 5,
+    "max_retries": 3,
+    "retry_backoff_seconds": 5,
+    "max_pages_per_category": 5,
+    "request_timeout_seconds": 15,
+    "output_format": "json"
+  },
+  "pipeline": {
+    "bronze_dir": "data/bronze",
+    "silver_dir": "data/silver",
+    "gold_dir": "data/gold",
+    "audit_log_dir": "data/audit",
+    "watermark_file": "data/watermark.json"
+  },
+  "selectors": {
+    "product_card": ".product-list-item, .imp-list-item",
+    "product_name": ".prod-name, .p-name a, h3.pr-name",
+    "price": ".price, .prod-price",
+    "supplier_name": ".sup-name, .sup-name a",
+    "location": ".loc, .sup-loc",
+    "rating": ".rating-count",
+    "description": ".prod-desc, .imp-desc"
+  }
+}
