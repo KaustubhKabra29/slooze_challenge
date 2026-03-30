@@ -1,0 +1,33 @@
+[
+  {
+    "price_band": "Under ₹500",
+    "total": 9,
+    "textile_fabrics": 9
+  },
+  {
+    "price_band": "₹500–₹5,000",
+    "total": 62,
+    "electronics_components": 8,
+    "textile_fabrics": 52,
+    "chemical_products": 2
+  },
+  {
+    "price_band": "₹5,000–₹50,000",
+    "total": 76,
+    "electronics_components": 60,
+    "industrial_machinery": 2,
+    "chemical_products": 14
+  },
+  {
+    "price_band": "₹50,000–₹5,00,000",
+    "total": 70,
+    "electronics_components": 1,
+    "industrial_machinery": 8,
+    "chemical_products": 61
+  },
+  {
+    "price_band": "Above ₹5,00,000",
+    "total": 60,
+    "industrial_machinery": 60
+  }
+]

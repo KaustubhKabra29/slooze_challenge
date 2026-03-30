@@ -1,0 +1,10 @@
+{
+  "total_records": 293,
+  "dq_passed": 269,
+  "dq_failed": 24,
+  "pass_rate_pct": 91.81,
+  "flag_breakdown": {
+    "MISSING_LOCATION": 8,
+    "MISSING_PRICE": 16
+  }
+}

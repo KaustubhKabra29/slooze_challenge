@@ -1,0 +1,144 @@
+[
+  {
+    "state": "Gujarat",
+    "total_listings": 64,
+    "unique_suppliers": 55,
+    "category_breakdown": {
+      "electronics_components": 20,
+      "industrial_machinery": 14,
+      "textile_fabrics": 18,
+      "chemical_products": 12
+    }
+  },
+  {
+    "state": "Maharashtra",
+    "total_listings": 45,
+    "unique_suppliers": 37,
+    "category_breakdown": {
+      "electronics_components": 12,
+      "industrial_machinery": 7,
+      "textile_fabrics": 11,
+      "chemical_products": 15
+    }
+  },
+  {
+    "state": "Uttar Pradesh",
+    "total_listings": 32,
+    "unique_suppliers": 28,
+    "category_breakdown": {
+      "electronics_components": 4,
+      "industrial_machinery": 8,
+      "textile_fabrics": 9,
+      "chemical_products": 11
+    }
+  },
+  {
+    "state": "Tamil Nadu",
+    "total_listings": 30,
+    "unique_suppliers": 25,
+    "category_breakdown": {
+      "electronics_components": 7,
+      "industrial_machinery": 5,
+      "textile_fabrics": 7,
+      "chemical_products": 11
+    }
+  },
+  {
+    "state": "Haryana",
+    "total_listings": 22,
+    "unique_suppliers": 21,
+    "category_breakdown": {
+      "electronics_components": 4,
+      "industrial_machinery": 7,
+      "textile_fabrics": 6,
+      "chemical_products": 5
+    }
+  },
+  {
+    "state": "West Bengal",
+    "total_listings": 16,
+    "unique_suppliers": 14,
+    "category_breakdown": {
+      "electronics_components": 3,
+      "industrial_machinery": 8,
+      "textile_fabrics": 2,
+      "chemical_products": 3
+    }
+  },
+  {
+    "state": "Rajasthan",
+    "total_listings": 16,
+    "unique_suppliers": 15,
+    "category_breakdown": {
+      "electronics_components": 4,
+      "industrial_machinery": 6,
+      "textile_fabrics": 2,
+      "chemical_products": 4
+    }
+  },
+  {
+    "state": "Delhi",
+    "total_listings": 14,
+    "unique_suppliers": 14,
+    "category_breakdown": {
+      "electronics_components": 5,
+      "industrial_machinery": 3,
+      "textile_fabrics": 3,
+      "chemical_products": 3
+    }
+  },
+  {
+    "state": "Karnataka",
+    "total_listings": 14,
+    "unique_suppliers": 14,
+    "category_breakdown": {
+      "electronics_components": 3,
+      "industrial_machinery": 6,
+      "textile_fabrics": 1,
+      "chemical_products": 4
+    }
+  },
+  {
+    "state": "Telangana",
+    "total_listings": 12,
+    "unique_suppliers": 12,
+    "category_breakdown": {
+      "electronics_components": 3,
+      "industrial_machinery": 1,
+      "textile_fabrics": 3,
+      "chemical_products": 5
+    }
+  },
+  {
+    "state": "Punjab",
+    "total_listings": 11,
+    "unique_suppliers": 11,
+    "category_breakdown": {
+      "electronics_components": 2,
+      "industrial_machinery": 5,
+      "textile_fabrics": 1,
+      "chemical_products": 3
+    }
+  },
+  {
+    "state": "Madhya Pradesh",
+    "total_listings": 9,
+    "unique_suppliers": 9,
+    "category_breakdown": {
+      "electronics_components": 2,
+      "industrial_machinery": 4,
+      "chemical_products": 3
+    }
+  },
+  {
+    "state": "Unknown",
+    "total_listings": 8,
+    "unique_suppliers": 8,
+    "category_breakdown": {
+      "electronics_components": 2,
+      "industrial_machinery": 2,
+      "textile_fabrics": 2,
+      "chemical_products": 2
+    }
+  }
+]

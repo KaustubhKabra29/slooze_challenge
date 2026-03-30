@@ -1,0 +1,42 @@
+[
+  {
+    "category": "chemical_products",
+    "total_products": 81,
+    "products_with_price": 77,
+    "avg_price_inr": 96789.61,
+    "median_price_inr": 99500.0,
+    "min_price_inr": 500.0,
+    "max_price_inr": 189700.0,
+    "stddev_price_inr": 50868.44
+  },
+  {
+    "category": "industrial_machinery",
+    "total_products": 76,
+    "products_with_price": 70,
+    "avg_price_inr": 2384640.0,
+    "median_price_inr": 2240850.0,
+    "min_price_inr": 22300.0,
+    "max_price_inr": 4707000.0,
+    "stddev_price_inr": 1466243.74
+  },
+  {
+    "category": "electronics_components",
+    "total_products": 71,
+    "products_with_price": 69,
+    "avg_price_inr": 24357.97,
+    "median_price_inr": 23400.0,
+    "min_price_inr": 700.0,
+    "max_price_inr": 50000.0,
+    "stddev_price_inr": 13710.23
+  },
+  {
+    "category": "textile_fabrics",
+    "total_products": 65,
+    "products_with_price": 61,
+    "avg_price_inr": 1057.38,
+    "median_price_inr": 1000.0,
+    "min_price_inr": 100.0,
+    "max_price_inr": 2000.0,
+    "stddev_price_inr": 569.05
+  }
+]

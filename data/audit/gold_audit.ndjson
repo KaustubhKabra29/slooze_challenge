@@ -1,0 +1,1 @@
+{"layer": "gold", "tables_built": ["category_summary", "state_summary", "price_distribution", "top_suppliers", "dq_summary", "price_by_category_box"], "silver_records_processed": 293, "built_at": "2026-03-30T10:38:14.959478", "status": "SUCCESS"}

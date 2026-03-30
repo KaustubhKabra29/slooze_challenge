@@ -1,0 +1,18 @@
+{
+  "industrial_machinery": {
+    "last_ingested_at": "2026-03-30T10:38:14.928971",
+    "last_batch_id": "86e476b3-aed7-40b8-a484-cd4b4fa5b4b0"
+  },
+  "electronics_components": {
+    "last_ingested_at": "2026-03-30T10:38:14.931483",
+    "last_batch_id": "99d74893-6bc9-4074-9917-860128838c51"
+  },
+  "textile_fabrics": {
+    "last_ingested_at": "2026-03-30T10:38:14.933408",
+    "last_batch_id": "bbf821cf-765c-4c35-84d8-2481ed4c1c1c"
+  },
+  "chemical_products": {
+    "last_ingested_at": "2026-03-30T10:38:14.935247",
+    "last_batch_id": "00e7f5a3-ea43-434f-83f9-657c56d5fc4c"
+  }
+}

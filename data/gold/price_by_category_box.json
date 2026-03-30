@@ -1,0 +1,38 @@
+[
+  {
+    "category": "electronics_components",
+    "p25": 14000.0,
+    "p50": 23400.0,
+    "p75": 34500.0,
+    "min": 700.0,
+    "max": 50000.0,
+    "count": 69
+  },
+  {
+    "category": "industrial_machinery",
+    "p25": 1127700.0,
+    "p50": 2245600.0,
+    "p75": 3611000.0,
+    "min": 22300.0,
+    "max": 4707000.0,
+    "count": 70
+  },
+  {
+    "category": "textile_fabrics",
+    "p25": 600.0,
+    "p50": 1000.0,
+    "p75": 1500.0,
+    "min": 100.0,
+    "max": 2000.0,
+    "count": 61
+  },
+  {
+    "category": "chemical_products",
+    "p25": 58100.0,
+    "p50": 99500.0,
+    "p75": 141800.0,
+    "min": 500.0,
+    "max": 189700.0,
+    "count": 77
+  }
+]

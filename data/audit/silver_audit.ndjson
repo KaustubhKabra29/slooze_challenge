@@ -1,0 +1,4 @@
+{"layer": "silver", "category": "electronics_components", "records_in": 71, "records_out": 71, "transformed_at": "2026-03-30T10:38:14.949895", "status": "SUCCESS"}
+{"layer": "silver", "category": "industrial_machinery", "records_in": 77, "records_out": 76, "transformed_at": "2026-03-30T10:38:14.952006", "status": "SUCCESS"}
+{"layer": "silver", "category": "textile_fabrics", "records_in": 65, "records_out": 65, "transformed_at": "2026-03-30T10:38:14.953561", "status": "SUCCESS"}
+{"layer": "silver", "category": "chemical_products", "records_in": 81, "records_out": 81, "transformed_at": "2026-03-30T10:38:14.955544", "status": "SUCCESS"}
