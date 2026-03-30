@@ -1,0 +1,143 @@
+2026-03-30 10:37:10  INFO      =================================================================
+2026-03-30 10:37:10  INFO        SLOOZE DATA ENGINEERING CHALLENGE — PIPELINE START
+2026-03-30 10:37:10  INFO      =================================================================
+2026-03-30 10:37:10  INFO      Config loaded. Categories: 4
+2026-03-30 10:37:11  INFO      Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-03-30 10:37:12  INFO      generated new fontManager
+2026-03-30 10:37:14  INFO      
+--- STAGE 1: CRAWL (4 categories) ---
+2026-03-30 10:37:14  INFO      Crawling: Industrial Machinery
+2026-03-30 10:37:14  INFO      Starting crawl: category='industrial_machinery'
+2026-03-30 10:37:14  INFO        Fetching page 1 → https://www.indiamart.com/search.mp?ss=industrial+machinery&priceUnit=INR
+2026-03-30 10:37:14  WARNING   Request error attempt 1/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=industrial+machinery&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:19  WARNING   Request error attempt 2/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=industrial+machinery&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:29  WARNING   Request error attempt 3/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=industrial+machinery&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:29  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:37:29.882737', 'category': 'industrial_machinery', 'url': 'https://www.indiamart.com/search.mp?ss=industrial+machinery&priceUnit=INR', 'records_fetched': 0, 'status': 'FAILED', 'error': 'No response from server'}
+2026-03-30 10:37:29  WARNING     Page 1 failed — stopping category crawl.
+2026-03-30 10:37:29  WARNING   No live data scraped for 'industrial_machinery'. Generating synthetic dataset.
+2026-03-30 10:37:29  INFO      Generated 77 synthetic records for 'industrial_machinery'
+2026-03-30 10:37:29  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:37:29.884034', 'category': 'industrial_machinery', 'url': 'https://www.indiamart.com/search.mp?ss=industrial+machinery&priceUnit=INR', 'records_fetched': 77, 'status': 'SYNTHETIC', 'error': 'Live scraping returned no data; synthetic fallback used'}
+2026-03-30 10:37:29  INFO        → 77 records collected
+2026-03-30 10:37:29  INFO      Crawling: Electronics Components
+2026-03-30 10:37:29  INFO      Starting crawl: category='electronics_components'
+2026-03-30 10:37:29  INFO        Fetching page 1 → https://www.indiamart.com/search.mp?ss=electronics+components&priceUnit=INR
+2026-03-30 10:37:29  WARNING   Request error attempt 1/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=electronics+components&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:34  WARNING   Request error attempt 2/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=electronics+components&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:44  WARNING   Request error attempt 3/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=electronics+components&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:44  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:37:44.897603', 'category': 'electronics_components', 'url': 'https://www.indiamart.com/search.mp?ss=electronics+components&priceUnit=INR', 'records_fetched': 0, 'status': 'FAILED', 'error': 'No response from server'}
+2026-03-30 10:37:44  WARNING     Page 1 failed — stopping category crawl.
+2026-03-30 10:37:44  WARNING   No live data scraped for 'electronics_components'. Generating synthetic dataset.
+2026-03-30 10:37:44  INFO      Generated 71 synthetic records for 'electronics_components'
+2026-03-30 10:37:44  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:37:44.898940', 'category': 'electronics_components', 'url': 'https://www.indiamart.com/search.mp?ss=electronics+components&priceUnit=INR', 'records_fetched': 71, 'status': 'SYNTHETIC', 'error': 'Live scraping returned no data; synthetic fallback used'}
+2026-03-30 10:37:44  INFO        → 71 records collected
+2026-03-30 10:37:44  INFO      Crawling: Textile Fabrics
+2026-03-30 10:37:44  INFO      Starting crawl: category='textile_fabrics'
+2026-03-30 10:37:44  INFO        Fetching page 1 → https://www.indiamart.com/search.mp?ss=textile+fabrics&priceUnit=INR
+2026-03-30 10:37:44  WARNING   Request error attempt 1/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=textile+fabrics&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:49  WARNING   Request error attempt 2/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=textile+fabrics&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:59  WARNING   Request error attempt 3/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=textile+fabrics&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:37:59  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:37:59.912794', 'category': 'textile_fabrics', 'url': 'https://www.indiamart.com/search.mp?ss=textile+fabrics&priceUnit=INR', 'records_fetched': 0, 'status': 'FAILED', 'error': 'No response from server'}
+2026-03-30 10:37:59  WARNING     Page 1 failed — stopping category crawl.
+2026-03-30 10:37:59  WARNING   No live data scraped for 'textile_fabrics'. Generating synthetic dataset.
+2026-03-30 10:37:59  INFO      Generated 65 synthetic records for 'textile_fabrics'
+2026-03-30 10:37:59  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:37:59.913769', 'category': 'textile_fabrics', 'url': 'https://www.indiamart.com/search.mp?ss=textile+fabrics&priceUnit=INR', 'records_fetched': 65, 'status': 'SYNTHETIC', 'error': 'Live scraping returned no data; synthetic fallback used'}
+2026-03-30 10:37:59  INFO        → 65 records collected
+2026-03-30 10:37:59  INFO      Crawling: Chemical Products
+2026-03-30 10:37:59  INFO      Starting crawl: category='chemical_products'
+2026-03-30 10:37:59  INFO        Fetching page 1 → https://www.indiamart.com/search.mp?ss=chemical+products&priceUnit=INR
+2026-03-30 10:37:59  WARNING   Request error attempt 1/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=chemical+products&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:38:04  WARNING   Request error attempt 2/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=chemical+products&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:38:14  WARNING   Request error attempt 3/3: HTTPSConnectionPool(host='www.indiamart.com', port=443): Max retries exceeded with url: /search.mp?ss=chemical+products&priceUnit=INR (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-30 10:38:14  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:38:14.926775', 'category': 'chemical_products', 'url': 'https://www.indiamart.com/search.mp?ss=chemical+products&priceUnit=INR', 'records_fetched': 0, 'status': 'FAILED', 'error': 'No response from server'}
+2026-03-30 10:38:14  WARNING     Page 1 failed — stopping category crawl.
+2026-03-30 10:38:14  WARNING   No live data scraped for 'chemical_products'. Generating synthetic dataset.
+2026-03-30 10:38:14  INFO      Generated 81 synthetic records for 'chemical_products'
+2026-03-30 10:38:14  INFO      [AUDIT] {'crawl_timestamp': '2026-03-30T10:38:14.928105', 'category': 'chemical_products', 'url': 'https://www.indiamart.com/search.mp?ss=chemical+products&priceUnit=INR', 'records_fetched': 81, 'status': 'SYNTHETIC', 'error': 'Live scraping returned no data; synthetic fallback used'}
+2026-03-30 10:38:14  INFO        → 81 records collected
+2026-03-30 10:38:14  INFO      Total raw records: 294
+2026-03-30 10:38:14  INFO      Crawler audit entries: 8
+2026-03-30 10:38:14  INFO        [FAILED] industrial_machinery — 0 records — No response from server
+2026-03-30 10:38:14  INFO        [SYNTHETIC] industrial_machinery — 77 records — Live scraping returned no data; synthetic fallback used
+2026-03-30 10:38:14  INFO        [FAILED] electronics_components — 0 records — No response from server
+2026-03-30 10:38:14  INFO        [SYNTHETIC] electronics_components — 71 records — Live scraping returned no data; synthetic fallback used
+2026-03-30 10:38:14  INFO        [FAILED] textile_fabrics — 0 records — No response from server
+2026-03-30 10:38:14  INFO        [SYNTHETIC] textile_fabrics — 65 records — Live scraping returned no data; synthetic fallback used
+2026-03-30 10:38:14  INFO        [FAILED] chemical_products — 0 records — No response from server
+2026-03-30 10:38:14  INFO        [SYNTHETIC] chemical_products — 81 records — Live scraping returned no data; synthetic fallback used
+2026-03-30 10:38:14  INFO      
+--- STAGE 2: BRONZE INGESTION ---
+2026-03-30 10:38:14  INFO      [Bronze] Wrote 77 records → data/bronze/industrial_machinery/2026-03-30/86e476b3-aed7-40b8-a484-cd4b4fa5b4b0.json
+2026-03-30 10:38:14  INFO        Bronze 'industrial_machinery': 77 records written (batch: 86e476b3)
+2026-03-30 10:38:14  INFO      [Bronze] Wrote 71 records → data/bronze/electronics_components/2026-03-30/99d74893-6bc9-4074-9917-860128838c51.json
+2026-03-30 10:38:14  INFO        Bronze 'electronics_components': 71 records written (batch: 99d74893)
+2026-03-30 10:38:14  INFO      [Bronze] Wrote 65 records → data/bronze/textile_fabrics/2026-03-30/bbf821cf-765c-4c35-84d8-2481ed4c1c1c.json
+2026-03-30 10:38:14  INFO        Bronze 'textile_fabrics': 65 records written (batch: bbf821cf)
+2026-03-30 10:38:14  INFO      [Bronze] Wrote 81 records → data/bronze/chemical_products/2026-03-30/00e7f5a3-ea43-434f-83f9-657c56d5fc4c.json
+2026-03-30 10:38:14  INFO        Bronze 'chemical_products': 81 records written (batch: 00e7f5a3)
+2026-03-30 10:38:14  INFO      [Bronze] Read 71 records for 'electronics_components'
+2026-03-30 10:38:14  INFO      [Bronze] Read 77 records for 'industrial_machinery'
+2026-03-30 10:38:14  INFO      [Bronze] Read 65 records for 'textile_fabrics'
+2026-03-30 10:38:14  INFO      [Bronze] Read 81 records for 'chemical_products'
+2026-03-30 10:38:14  INFO      Total Bronze records available: 294
+2026-03-30 10:38:14  INFO      
+--- STAGE 3: SILVER TRANSFORMATION ---
+2026-03-30 10:38:14  INFO      [Silver] Transforming 294 Bronze records …
+2026-03-30 10:38:14  INFO      [Silver] 'electronics_components' → 71 records → data/silver/electronics_components.json
+2026-03-30 10:38:14  INFO      [Silver] 'industrial_machinery' → 76 records → data/silver/industrial_machinery.json
+2026-03-30 10:38:14  INFO      [Silver] 'textile_fabrics' → 65 records → data/silver/textile_fabrics.json
+2026-03-30 10:38:14  INFO      [Silver] 'chemical_products' → 81 records → data/silver/chemical_products.json
+2026-03-30 10:38:14  INFO      [Silver] Transformation complete. 293 records written.
+2026-03-30 10:38:14  INFO      Silver records after cleanse + dedup: 293
+2026-03-30 10:38:14  INFO      DQ pass rate: 269/293 (91.8%)
+2026-03-30 10:38:14  INFO      
+--- STAGE 4: GOLD AGGREGATIONS ---
+2026-03-30 10:38:14  INFO      [Gold] Building analytical tables from 293 Silver records …
+2026-03-30 10:38:14  INFO      [Gold] 'category_summary' → data/gold/category_summary.json
+2026-03-30 10:38:14  INFO      [Gold] 'state_summary' → data/gold/state_summary.json
+2026-03-30 10:38:14  INFO      [Gold] 'price_distribution' → data/gold/price_distribution.json
+2026-03-30 10:38:14  INFO      [Gold] 'top_suppliers' → data/gold/top_suppliers.json
+2026-03-30 10:38:14  INFO      [Gold] 'dq_summary' → data/gold/dq_summary.json
+2026-03-30 10:38:14  INFO      [Gold] 'price_by_category_box' → data/gold/price_by_category_box.json
+2026-03-30 10:38:14  INFO        Gold table 'category_summary': 4 rows
+2026-03-30 10:38:14  INFO        Gold table 'state_summary': 13 rows
+2026-03-30 10:38:14  INFO        Gold table 'price_distribution': 5 rows
+2026-03-30 10:38:14  INFO        Gold table 'top_suppliers': 20 rows
+2026-03-30 10:38:14  INFO        Gold table 'dq_summary': dict rows
+2026-03-30 10:38:14  INFO        Gold table 'price_by_category_box': 4 rows
+2026-03-30 10:38:14  INFO      
+--- STAGE 5: EDA ---
+2026-03-30 10:38:14  INFO      ============================================================
+2026-03-30 10:38:14  INFO      Starting EDA …
+2026-03-30 10:38:14  INFO      ============================================================
+2026-03-30 10:38:14  INFO      Loaded 293 Silver records for EDA.
+2026-03-30 10:38:14  INFO      DataFrame shape: (293, 20)
+2026-03-30 10:38:14  INFO      
+--- DATASET OVERVIEW ---
+2026-03-30 10:38:14  INFO      Total records      : 293
+2026-03-30 10:38:14  INFO      Unique products    : 60
+2026-03-30 10:38:14  INFO      Unique suppliers   : 131
+2026-03-30 10:38:14  INFO      Unique states      : 13
+2026-03-30 10:38:14  INFO      Categories         : ['textile_fabrics', 'industrial_machinery', 'electronics_components', 'chemical_products']
+2026-03-30 10:38:14  INFO      Records with price : 277 (94.5%)
+2026-03-30 10:38:14  INFO      DQ pass rate       : 91.8%
+2026-03-30 10:38:15  INFO        ✓ Chart: category distribution
+2026-03-30 10:38:15  INFO        ✓ Chart: price box+violin
+2026-03-30 10:38:16  INFO        ✓ Chart: price bands
+2026-03-30 10:38:16  INFO        ✓ Chart: state distribution
+2026-03-30 10:38:17  INFO        ✓ Chart: top suppliers
+2026-03-30 10:38:17  INFO        ✓ Chart: DQ report
+2026-03-30 10:38:17  INFO        ✓ Chart: price outliers
+2026-03-30 10:38:17  INFO      Insights report saved → outputs/eda/insights.md
+2026-03-30 10:38:17  INFO      EDA complete. Outputs saved to: outputs/eda
+2026-03-30 10:38:17  INFO      
+=================================================================
+2026-03-30 10:38:17  INFO        PIPELINE COMPLETE
+2026-03-30 10:38:17  INFO      =================================================================
+2026-03-30 10:38:17  INFO        Raw records crawled   : 294
+2026-03-30 10:38:17  INFO        Bronze records        : 294
+2026-03-30 10:38:17  INFO        Silver records        : 293
+2026-03-30 10:38:17  INFO        Gold tables           : 6
+2026-03-30 10:38:17  INFO        EDA outputs           : outputs/eda/
+2026-03-30 10:38:17  INFO        Audit logs            : data/audit/
+2026-03-30 10:38:17  INFO        Pipeline log          : pipeline.log
+2026-03-30 10:38:17  INFO      =================================================================
