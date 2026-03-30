@@ -97,9 +97,23 @@ The crawler is engineered for resilience and scalability, utilizing a configurat
 | **Degradation** | Synthetic fallback mechanisms triggered when live sites block requests. |
 | **Audit Trail** | Full NDJSON audit record per URL (Status, Row Count, Timestamp). |
 
+### Part B: Exploratory Data Analysis (EDA)
+Comprehensive data profiling and visualization outputs are stored in `outputs/eda/`.
+
+| # | File Name | Visualization Description |
+| :--- | :--- | :--- |
+| 1 | `01_category_distribution.png` | Total listing counts segmented by category. |
+| 2 | `02_price_distributions.png` | Log-scale Box + Violin plots for price variance. |
+| 3 | `03_price_bands.png` | Stacked bar chart showing price bucket breakdowns. |
+| 4 | `04_state_distribution.png` | Geospatial distribution (Top 15 States). |
+| 5 | `05_top_suppliers.png` | Market concentration: Top 20 suppliers by volume. |
+| 6 | `06_dq_report.png` | Data Quality pass rate pie chart & flag breakdown. |
+| 7 | `07_price_outliers.png` | Z-score based scatter plots identifying price anomalies. |
+
+---
+### 📂 Configuration Example
 **Zero-Code Category Onboarding Example:**
 To add a new category, simply append a block to `config/scraper_config.json`:
-
 ```json
 {
   "name": "Agricultural Equipment",
@@ -107,13 +121,3 @@ To add a new category, simply append a block to `config/scraper_config.json`:
   "search_url": "[https://www.indiamart.com/search.mp?ss=agricultural+equipment](https://www.indiamart.com/search.mp?ss=agricultural+equipment)",
   "enabled": true
 }
-
-Part B: Exploratory Data Analysis (EDA)
-#,File Name,Visualization Description
-1,01_category_distribution.png,Total listing counts segmented by category.
-2,02_price_distributions.png,Log-scale Box + Violin plots for price variance.
-3,03_price_bands.png,Stacked bar chart showing price bucket breakdowns.
-4,04_state_distribution.png,Geospatial distribution (Top 15 States).
-5,05_top_suppliers.png,Market concentration: Top 20 suppliers by volume.
-6,06_dq_report.png,Data Quality pass rate pie chart & flag breakdown.
-7,07_price_outliers.png,Z-score based scatter plots identifying price anomalies.
